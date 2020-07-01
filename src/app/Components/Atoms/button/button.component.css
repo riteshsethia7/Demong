@@ -1,0 +1,217 @@
+/* Primary button styling  */
+.primary {
+  outline: none;
+  border-radius: 5px;
+  border-color: rgba(119, 216, 233, 0.562);
+  border-width: 1px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgb(28, 168, 223);
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px; margin-top:10px;
+  display: inline-block;
+}
+.primary:hover {
+  background-color: rgb(29, 154, 204);
+}
+.primary:active{
+  transform: translateY(2px);
+}
+
+/* Success button styling  */
+.success {
+  outline: none;
+  border-radius: 5px;
+  border-color: rgba(87, 216, 119, 0.562);
+  border-width: 1px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgb(60, 199, 32);
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px; margin-top:10px;
+  display: inline-block;
+}
+.success:hover {
+  background-color: rgb(58, 185, 32);
+}
+.success:active{
+  transform: translateY(2px);
+}
+
+/* Danger button styling  */
+.danger {
+  outline: none;
+  border-radius: 5px;
+  border-color: rgba(216, 87, 87, 0.562);
+  border-width: 1px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgb(236, 40, 40);
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px; margin-top:10px;
+  display: inline-block;
+}
+.danger:hover {
+  background-color: rgb(216, 37, 37);
+}
+.danger:active{
+  transform: translateY(2px);
+}
+
+/* Warning button styling  */
+.warning {
+  outline: none;
+  border-radius: 5px;
+  border-color: rgba(207, 216, 87, 0.562);
+  border-width: 1px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #ffc107;
+  color: black;
+  margin-left: 10px;
+  margin-bottom: 10px; margin-top:10px;
+  display: inline-block;
+}
+.warning:hover {
+  background-color: rgb(189, 179, 41)
+}
+.warning:active{
+  transform: translateY(2px);
+}
+
+/* Primary Stroked button styling  */
+.stroked-primary {
+  outline:none;
+  border-color: rgb(28, 168, 223);
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: white;
+  color: rgb(28, 168, 223);
+  margin-left: 10px;
+  margin-bottom: 10px; margin-top:10px;
+  display: inline-block;
+}
+.stroked-primary:hover {
+  background-color: rgb(29, 154, 204);
+  color: white;
+}
+.stroked-primary:active{
+  transform: translateY(2px);
+}
+
+/* Success Stroked button styling  */
+.stroked-success {
+  outline: none;
+  border-radius: 5px;
+  border-color: rgb(60, 199, 32);
+  border-width: 1px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: white;
+  color: rgb(60, 199, 32);
+  margin-left: 10px;
+  margin-bottom: 10px; margin-top:10px;
+  display: inline-block;
+}
+.stroked-success:hover {
+  background-color: rgb(58, 185, 32);
+  color: white;
+}
+.stroked-success:active{
+  transform: translateY(2px);
+}
+
+/* Warning Stroked button styling  */
+.stroked-warning {
+  outline: none;
+  border-radius: 5px;
+  border-color: #ffc107;
+  border-width: 1px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: white;
+  color: #ffc107;
+  margin-left: 10px;
+  margin-bottom: 10px; margin-top:10px;
+  display: inline-block;
+}
+.stroked-warning:hover {
+  background-color: #ffc107;
+  color: black;
+}
+.stroked-warning:active{
+  transform: translateY(2px);
+}
+
+/* Danger Stroked button Styling */
+.stroked-danger {
+  outline: none;
+  border-radius: 5px;
+  border-color: rgb(236, 40, 40);
+  border-width: 1px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: white;
+  color: rgb(236, 40, 40);
+  margin-left: 10px;
+  margin-bottom: 10px; margin-top:10px;
+  display: inline-block;
+}
+.stroked-danger:hover {
+  background-color: rgb(236, 40, 40);
+  color: white;
+}
+.stroked-danger:active{
+  transform: translateY(2px);
+}
+
+/* Button large */
+.large{
+  font-size: 24px;
+}
+
+.link{
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 16px;
+  display: inline;
+  font-weight: 200;
+}
+.link:hover{
+  color:rgb(28, 168, 223);
+}
+.link:active{
+  transform: translateY(2px);
+}
+
+
+.menutitle{
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 20px;
+  font-weight: 200;
+  width: 100%;
+  padding: 5px 2px;
+  text-align: left;
+  background-color: rgba(189, 189, 189, 0.247);
+}
+.menucontent{
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 20px;
+  font-weight: 200;
+  width: 100%;
+  margin-top: 5px;margin-bottom: 5px;
+  text-align: left;
+}
+.menucontent:hover{
+  color:rgb(28, 168, 223);
+}

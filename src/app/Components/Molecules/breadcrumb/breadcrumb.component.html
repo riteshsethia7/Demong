@@ -1,0 +1,7 @@
+<div class="breadcrumb" [ngClass]="{'showborder' : border}">
+    <a class="material-icons" id="home" href="https://www.w3schools.com/howto/howto_css_flip_card.asp">&nbsp; home &nbsp;</a>
+  <ng-container *ngFor='let link of model'>
+    <p class="material-icons">&nbsp; arrow_forward_ios &nbsp;</p>
+  <r-button [rclass]="'link'" > {{link.label}}</r-button>
+</ng-container>
+</div>

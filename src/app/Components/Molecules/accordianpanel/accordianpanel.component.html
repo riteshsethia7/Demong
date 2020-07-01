@@ -1,0 +1,4 @@
+<div>
+  <button (click)='showtab()'  [ngClass]="{'active' : isopen}" ><i class="material-icons">{{arrowkey}}</i> {{label}}</button>
+  <div *ngIf='isopen' class="content"><ng-content></ng-content></div>
+</div>

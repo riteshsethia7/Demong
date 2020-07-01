@@ -1,0 +1,13 @@
+<div style="margin-bottom: -15px;" *ngIf='popup'>
+<r-button [rclass]='"primary"' (click)='showmenu()'><i class="material-icons">menu</i>&nbsp;Menu</r-button>
+</div>
+<div style="margin-left: 12px;" *ngIf='clicked'>
+<r-card [width]="'200px'" >
+  <ng-container *ngFor='let item of model'>
+    <r-button [rclass]="'menutitle'">&nbsp;<i class="material-icons">{{item.icon}}</i>&nbsp;{{item.label}}</r-button>
+    <ng-container *ngFor='let drop of item.items'>
+      <r-button [rclass]="'menucontent'">&nbsp;&nbsp;&nbsp;<i class="material-icons">{{drop.icon}}</i>&nbsp;{{drop.label}}</r-button>
+    </ng-container>
+  </ng-container>
+</r-card>
+</div>

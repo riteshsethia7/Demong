@@ -1,0 +1,15 @@
+<form  (submit)='onsubmit()'>
+  <r-text [rtype]="'title bold large'" style="text-align: center;"
+    >Sign In !</r-text
+  >
+  <r-input-field [rtype]="'text'" [rplaceholder]="'Enter Email Address'" (inputdata)='emaildata($event)'
+    >Email Address</r-input-field
+  >
+  <r-input-field [rtype]="'password'" [rplaceholder]="'Enter Password'" (inputdata)='passworddata($event)'
+    >Password</r-input-field
+  >
+  <r-checkbox-field>Remember me</r-checkbox-field>
+  <div style="text-align: center;">
+    <r-button [btntype]="'submit'" [rclass]="'primary large'">Sign in</r-button>
+  </div>
+</form>

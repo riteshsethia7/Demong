@@ -1,0 +1,12 @@
+<div>
+  <div
+    *ngFor="let item of model;let i = index"
+    style="display: inline-block; padding-top: 5px; margin-right: 4px;"
+  >
+    <button class="tab" (click)="navigate(item.routerlink,i)" [ngClass]='{"active":isactive[i]}'
+      ><i class="material-icons">{{ item.icon }}</i
+      >{{ item.label }}</button
+    >
+  </div>
+  <hr style="margin-top: -1px; margin-left: 10px;" />
+</div>

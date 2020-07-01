@@ -1,0 +1,54 @@
+<form (submit)="onsubmit()">
+  <r-text [rtype]="'title bold large'" style="text-align: center;"
+    >Sign Up !</r-text
+  >
+  <div class="namefield" style=" width: 100%;">
+    <div
+      style="
+        width: 47.5%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 20px;
+      "
+    >
+      <r-input-field
+        [rtype]="'text'"
+        [rplaceholder]="'Enter First Name'"
+        (inputdata)="fname($event)"
+        >First Name</r-input-field
+      >
+    </div>
+    <div
+      style="width: 48%; float: right; margin-bottom: 20px;margin-right: 5px;"
+    >
+      <r-input-field
+        [rtype]="'text'"
+        [rplaceholder]="'Enter Last Name'"
+        (inputdata)="lname($event)"
+        >Last Name</r-input-field
+      >
+    </div>
+  </div>
+  <r-input-field
+    [rtype]="'text'"
+    [rplaceholder]="'Enter Email Address'"
+    (inputdata)="emaildata($event)"
+    >Email Address</r-input-field
+  >
+  <r-input-field
+    [rtype]="'password'"
+    [rplaceholder]="'Enter Password'"
+    (inputdata)="passworddata($event)"
+    >Password</r-input-field
+  >
+  <r-input-field
+    [rtype]="'password'"
+    [rplaceholder]="'Confirm Password'"
+    (inputdata)="confirmpassworddata($event)"
+    >Confirm Password</r-input-field
+  >
+  <r-checkbox-field>Remember me</r-checkbox-field>
+  <div style="text-align: center;">
+    <r-button [btntype]="'submit'" [rclass]="'primary large'">Sign up</r-button>
+  </div>
+</form>

@@ -1,0 +1,4 @@
+<div class="input-field">
+  <r-text [rtype]="'label'"><ng-content></ng-content></r-text>
+  <r-input [rtype]="rtype" [rplaceholder]="rplaceholder" (inputdata)='inputfielddata($event)'></r-input>
+</div>

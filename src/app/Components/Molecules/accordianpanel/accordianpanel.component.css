@@ -1,0 +1,48 @@
+.panel{
+  width: 97.2%;
+  background-color:rgba(209, 209, 209, 0.404);
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+ .panel:hover {
+   background-color: rgb(209, 209, 209);;
+ }
+
+ .panel:active{
+   background-color: rgb(94, 166, 233);
+ }
+
+
+button{
+  width: 98%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgba(194, 194, 194, 0.411);
+  color: black;
+  margin-left: 10px;
+  margin-top:10px;
+  display: inline-block;
+  text-align: left;
+}
+button:hover{
+  background-color: rgba(194, 194, 194, 0.788);
+}
+.active{
+   background-color: rgba(112, 189, 219, 0.719);
+ }
+.active:hover{
+  background-color: rgba(112, 189, 219, 0.719);
+}
+.content{
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  width: 98%;
+  margin-left: 10px;
+  margin-top: 3px;
+  border-radius: 5px;
+}
+i{
+  margin-top: -5px;
+}
