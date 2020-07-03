@@ -1,4 +1,4 @@
 # Demong
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+Demon G is a Angular UI components Library. It contains customizable UI components. It follows Atomic Design Methodology
 
